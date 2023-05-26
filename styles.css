@@ -3,4 +3,8 @@
     width: 95%;
     height: 1px;
     background-color: black;
+    margin-bottom: 50px;
+}
+.postxt {
+    color: blue;
 }

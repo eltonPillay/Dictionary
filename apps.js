@@ -14,7 +14,7 @@ but.addEventListener("click", async (event) => {
     const phon = document.getElementById("pronounciation");
     const maincon = document.getElementById("mainbody");
     word.innerHTML = search;
-    phon.innerHTML = apiurl.phonetic;
+    phon.innerHTML = apiurl.phonetics[0].text;
     maincon.innerHTML = "";
 
     for (let i = 0; i < apiurl.meanings.length; i++) {
